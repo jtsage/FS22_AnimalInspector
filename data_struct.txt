@@ -1,0 +1,69 @@
+2022-02-22 15:52 key:name val:Sheep Barn
+2022-02-22 15:52 key:productivty val:100
+2022-02-22 15:52 key:foodTypes val:table: 0x0213d010d098
+2022-02-22 15:52   idx:1
+2022-02-22 15:52     skey:title sval:Grass (100%)
+2022-02-22 15:52     skey:percent sval:100
+2022-02-22 15:52 key:outTypes val:table: 0x0213800e8030
+2022-02-22 15:52   idx:1
+2022-02-22 15:52     skey:title sval:Wool
+2022-02-22 15:52     skey:fillLevel sval:1929
+2022-02-22 15:52     skey:percent sval:17
+2022-02-22 15:52 key:totalAnimals val:47
+2022-02-22 15:52 key:maxAnimals val:65
+2022-02-22 15:52 key:totalFood val:100
+2022-02-22 15:52 key:underageFactor val:64
+2022-02-22 15:52 key:breedFactor val:80
+2022-02-22 15:52 key:healthFactor val:100
+
+
+2022-02-22 15:52 key:name val:Cow Barn (large)
+2022-02-22 15:52 key:productivty val:100
+2022-02-22 15:52 key:foodTypes val:table: 0x0213800ce658
+2022-02-22 15:52   idx:1
+2022-02-22 15:52     skey:title sval:Total Mixed Ration (100%)
+2022-02-22 15:52     skey:percent sval:100
+2022-02-22 15:52   idx:2
+2022-02-22 15:52     skey:title sval:Hay (80%)
+2022-02-22 15:52     skey:percent sval:0
+2022-02-22 15:52   idx:3
+2022-02-22 15:52     skey:title sval:Grass (40%)
+2022-02-22 15:52     skey:percent sval:0
+2022-02-22 15:52 key:outTypes val:table: 0x0213cfd296a8
+2022-02-22 15:52   idx:1
+2022-02-22 15:52     skey:title sval:Milk
+2022-02-22 15:52     skey:fillLevel sval:168
+2022-02-22 15:52     skey:percent sval:1
+2022-02-22 15:52   idx:2
+2022-02-22 15:52     skey:title sval:Straw
+2022-02-22 15:52     skey:fillLevel sval:0
+2022-02-22 15:52     skey:percent sval:0
+2022-02-22 15:52   idx:3
+2022-02-22 15:52     skey:title sval:Slurry
+2022-02-22 15:52     skey:fillLevel sval:312
+2022-02-22 15:52     skey:percent sval:1
+2022-02-22 15:52 key:totalAnimals val:30
+2022-02-22 15:52 key:maxAnimals val:80
+2022-02-22 15:52 key:totalFood val:100
+2022-02-22 15:52 key:underageFactor val:0
+2022-02-22 15:52 key:breedFactor val:80
+2022-02-22 15:52 key:healthFactor val:100
+
+
+2022-02-22 15:52 key:name val:Chicken Coop
+2022-02-22 15:52 key:productivty val:100
+2022-02-22 15:52 key:foodTypes val:table: 0x02139d99c8c0
+2022-02-22 15:52   idx:1
+2022-02-22 15:52     skey:title sval:Grain (100%)
+2022-02-22 15:52     skey:percent sval:82
+2022-02-22 15:52 key:outTypes val:table: 0x02140a430938
+2022-02-22 15:52   idx:1
+2022-02-22 15:52     skey:title sval:Eggs
+2022-02-22 15:52     skey:fillLevel sval:52
+2022-02-22 15:52     skey:percent sval:1
+2022-02-22 15:52 key:totalAnimals val:123
+2022-02-22 15:52 key:maxAnimals val:360
+2022-02-22 15:52 key:totalFood val:82
+2022-02-22 15:52 key:underageFactor val:74
+2022-02-22 15:52 key:breedFactor val:0
+2022-02-22 15:52 key:healthFactor val:98

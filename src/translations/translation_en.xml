@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+  <translationContributors>JTSage</translationContributors>
+
+  <texts>
+	<text name="input_AnimalInspector_reload_config"       text="Reload configuration" />
+	<text name="input_AnimalInspector_toggle_visible"      text="Toggle Display On/Off" />
+	<text name="title_animalInspector"                     text="Animal Inspector" />
+	<text name="hud_animalInspector_avgHealth"             text="Average Health" />
+	<text name="hud_animalInspector_avgBreed"              text="Average Reproduction" />
+	<text name="hud_animalInspector_tooYoung"              text="Below Reproduction Age" />
+	<text name="setting_animalInspector_Visible"           text="HUD Visible" />
+	<text name="toolTip_animalInspector_Visible"           text="When enabled, the overlay is shown" />
+	<text name="setting_animalInspector_ShowCount"         text="Show Animal Count" />
+	<text name="toolTip_animalInspector_ShowCount"         text="When enabled, show number of animals and total space for animals " />
+	<text name="setting_animalInspector_ShowFood"          text="Show Food Total" />
+	<text name="toolTip_animalInspector_ShowFood"          text="When enabled, show total food available as a percentage" />
+	<text name="setting_animalInspector_ShowFoodTypes"     text="Show Food Types" />
+	<text name="toolTip_animalInspector_ShowFoodTypes"     text="When enabled, show individual food types sperately" />
+	<text name="setting_animalInspector_ShowProductivity"  text="Show Productivity" />
+	<text name="toolTip_animalInspector_ShowProductivity"  text="When enabled, show average productivity" />
+	<text name="setting_animalInspector_ShowReproduction"  text="Show Average Reproduction" />
+	<text name="toolTip_animalInspector_ShowReproduction"  text="When enabled, show average reproduction of breeding age animals" />
+	<text name="setting_animalInspector_ShowOutputs"       text="Show Products and Extras" />
+	<text name="toolTip_animalInspector_ShowOutputs"       text="When enabled, show output products and extra inputs (e.g. straw)" />
+	<text name="setting_animalInspector_ShowPuberty"       text="Show Immature Animals" />
+	<text name="toolTip_animalInspector_ShowPuberty"       text="When enabled, show percentage of immature (non breeding age) animals" />
+	<text name="setting_animalInspector_ShowHealth"        text="Show Average Health" />
+	<text name="toolTip_animalInspector_ShowHealth"        text="When enabled, show average health of animals" />
+	<text name="setting_animalInspector_TextBold"          text="Use Bold Font" />
+	<text name="toolTip_animalInspector_TextBold"          text="When enabled, use a bold font for the entire display" />
+	<text name="setting_animalInspector_DisplayMode"       text="Display Mode" />
+	<text name="toolTip_animalInspector_DisplayMode"       text="Where to show the overlay on screen" />
+	<text name="setting_animalInspector_DisplayMode1"      text="Top Left, Under Help" />
+	<text name="setting_animalInspector_DisplayMode2"      text="Top Right, Under Clock" />
+	<text name="setting_animalInspector_DisplayMode3"      text="Bottom Left, Above Map" />
+	<text name="setting_animalInspector_DisplayMode4"      text="Bottom Right, Above Speedometer" />
+  </texts>
+</l10n>

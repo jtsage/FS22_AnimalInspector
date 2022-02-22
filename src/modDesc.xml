@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+    <title>
+        <en>Animal Inspector</en>
+        <de>Tierinspektor</de>
+    </title>
+    <description>
+        <en><![CDATA[Animal Inspector shows your animal husbandries at a glance
+
+Options:
+ - Show number of animals and space left
+ - Show food levels (total and individual)
+ - Show output products and their fill levels
+ - Show animal health average, breeding average, and immature animal percentage
+
+Default Input Bindings:
+Left Ctrl + Left Alt + Num Pad 7 : Reload configuration file from disk
+Left Alt + Num Pad 7 : Toggle display on and off
+ ]]></en>
+        <de><![CDATA[Tierinspektor zeigt Ihre Tierhaltungen auf einen Blick
+
+Optionen:
+ - Anzeige der Anzahl der Tiere und des verbleibenden Platzes
+ - Futterstände anzeigen (gesamt und einzeln)
+ - Anzeige der Ausgangsprodukte und ihrer Füllstände
+ - Anzeige des durchschnittlichen Gesundheitszustands der Tiere, des Zuchtdurchschnitts und des Prozentsatzes unreifer Tiere
+
+ Standard-Eingabebindungen:
+Left Ctrl + Left Alt + Num Pad 7 : Konfigurationsdatei von der Festplatte neu laden
+Left Alt + Num Pad 7 : Anzeige ein- und ausschalten
+ ]]></de>
+    </description>
+    <author>JTSage</author>
+    <version>1.0.0.0</version>
+    <iconFilename>modIcon.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <extraSourceFiles>
+        <sourceFile filename="loader.lua"/>
+    </extraSourceFiles>
+    <l10n filenamePrefix="translations/translation"/>
+
+    <actions>
+        <action name="AnimalInspector_reload_config" category="SYSTEM" axisType="HALF" ignoreComboMask="false" />
+        <action name="AnimalInspector_toggle_visible" category="SYSTEM" axisType="HALF" ignoreComboMask="false" />
+    </actions>
+    <inputBinding>
+        <actionBinding action="AnimalInspector_reload_config">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_lalt KEY_KP_7" axisComponent="+" neutralInput="0" index="1" />
+        </actionBinding>
+        <actionBinding action="AnimalInspector_toggle_visible">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_KP_7" axisComponent="+" neutralInput="0" index="1" />
+        </actionBinding>
+    </inputBinding>
+</modDesc>

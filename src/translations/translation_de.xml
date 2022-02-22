@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+  <translationContributors>JTSage via DeepL</translationContributors>
+
+  <texts>
+	<text name="input_AnimalInspector_reload_config"       text="Konfiguration neu laden" />
+	<text name="input_AnimalInspector_toggle_visible"      text="Display ein-/ausschalten" />
+	<text name="title_animalInspector"                     text="Tierinspektor" />
+	<text name="hud_animalInspector_avgHealth"             text="Durchschnittliche Gesundheit" />
+	<text name="hud_animalInspector_avgBreed"              text="Durchschnittliche Fortpflanzung" />
+	<text name="hud_animalInspector_tooYoung"              text="Unterhalb des Reproduktionsalters" />
+	<text name="setting_animalInspector_Visible"           text="HUD Sichtbar" />
+	<text name="toolTip_animalInspector_Visible"           text="Wenn aktiviert, wird das Overlay angezeigt" />
+	<text name="setting_animalInspector_ShowCount"         text="Tierzahl anzeigen" />
+	<text name="toolTip_animalInspector_ShowCount"         text="Wenn diese Option aktiviert ist, werden die Anzahl der Tiere und der Gesamtplatz für die Tiere angezeigt." />
+	<text name="setting_animalInspector_ShowFood"          text="Essen anzeigen Gesamt" />
+	<text name="toolTip_animalInspector_ShowFood"          text="Wenn diese Option aktiviert ist, wird die insgesamt verfügbare Nahrung als Prozentsatz angezeigt." />
+	<text name="setting_animalInspector_ShowFoodTypes"     text="Lebensmitteltypen anzeigen" />
+	<text name="toolTip_animalInspector_ShowFoodTypes"     text="Wenn diese Option aktiviert ist, werden die einzelnen Lebensmittelarten getrennt angezeigt." />
+	<text name="setting_animalInspector_ShowProductivity"  text="Produktivität anzeigen" />
+	<text name="toolTip_animalInspector_ShowProductivity"  text="Wenn aktiviert, durchschnittliche Produktivität anzeigen" />
+	<text name="setting_animalInspector_ShowReproduction"  text="Durchschnittliche Reproduktion anzeigen" />
+	<text name="toolTip_animalInspector_ShowReproduction"  text="Wenn aktiviert, wird die durchschnittliche Reproduktion von Tieren im Zuchtalter angezeigt." />
+	<text name="setting_animalInspector_ShowOutputs"       text="Produkte und Extras anzeigen" />
+	<text name="toolTip_animalInspector_ShowOutputs"       text="Wenn aktiviert, werden Ausgangsprodukte und zusätzliche Eingänge (z. B. Stroh) angezeigt." />
+	<text name="setting_animalInspector_ShowPuberty"       text="Unreife Tiere anzeigen" />
+	<text name="toolTip_animalInspector_ShowPuberty"       text="Wenn diese Option aktiviert ist, wird der Prozentsatz unreifer (nicht zuchtfähiger) Tiere angezeigt." />
+	<text name="setting_animalInspector_ShowHealth"        text="Durchschnittliche Gesundheit anzeigen" />
+	<text name="toolTip_animalInspector_ShowHealth"        text="Wenn aktiviert, wird der durchschnittliche Gesundheitszustand der Tiere angezeigt." />
+	<text name="setting_animalInspector_TextBold"          text="Fettgedruckte Schrift verwenden" />
+	<text name="toolTip_animalInspector_TextBold"          text="Wenn aktiviert, wird für die gesamte Anzeige eine fette Schrift verwendet." />
+	<text name="setting_animalInspector_DisplayMode"       text="Anzeigemodus" />
+	<text name="toolTip_animalInspector_DisplayMode"       text="Wo das Overlay auf dem Bildschirm angezeigt werden soll" />
+	<text name="setting_animalInspector_DisplayMode1"      text="Oben links, unter Hilfe" />
+	<text name="setting_animalInspector_DisplayMode2"      text="Oben rechts, unter der Uhr" />
+	<text name="setting_animalInspector_DisplayMode3"      text="Unten links, über Karte" />
+	<text name="setting_animalInspector_DisplayMode4"      text="Unten rechts, über dem Tachometer" />
+  </texts>
+</l10n>
