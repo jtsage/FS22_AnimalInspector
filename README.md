@@ -9,6 +9,8 @@
 First I did the vehicle one.  Then I thought it might be nice to have productions on screen too.  Now, I want animals too,
 so here that is.
 
+Note that this ignores horses.  They are just too different, and I didn't want to write all of the extra code.
+
 ## Note about the ZIP in the repo
 
 That ZIP file, while the ?working? mod, is usually my test version.  It's updated multiple times per

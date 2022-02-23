@@ -5,7 +5,7 @@
         <de>Tierinspektor</de>
     </title>
     <description>
-        <en><![CDATA[Animal Inspector shows your animal husbandries at a glance
+        <en><![CDATA[Animal Inspector shows your (non-horse) animal husbandries at a glance
 
 Options:
  - Show number of animals and space left
@@ -17,7 +17,7 @@ Default Input Bindings:
 Left Ctrl + Left Alt + Num Pad 7 : Reload configuration file from disk
 Left Alt + Num Pad 7 : Toggle display on and off
  ]]></en>
-        <de><![CDATA[Tierinspektor zeigt Ihre Tierhaltungen auf einen Blick
+        <de><![CDATA[Animal Inspector zeigt Ihre (Nicht-Pferde-)Tierhaltungen auf einen Blick
 
 Optionen:
  - Anzeige der Anzahl der Tiere und des verbleibenden Platzes

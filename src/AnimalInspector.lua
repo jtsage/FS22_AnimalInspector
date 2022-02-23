@@ -223,7 +223,8 @@ function AnimalInspector:updateAnimals()
 						table.insert(dispOuts, {
 							title     = thisCondInfo.title,
 							percent   = math.ceil(thisCondInfo.ratio * 100),
-							fillLevel = math.floor(thisCondInfo.value)
+							fillLevel = math.floor(thisCondInfo.value),
+							invert    = thisCondInfo.invertedBar
 						})
 					end
 
@@ -490,7 +491,7 @@ function AnimalInspector:draw()
 						firstRun = false
 					end
 
-					local fillColor    = self:makeFillColor(outType.percent, false)
+					local fillColor    = self:makeFillColor(outType.percent, (not outType.invert))
 
 					table.insert(thisTextLine, {"colorDataName", outType.title .. ": ", false, true})
 					table.insert(thisTextLine, {"rawFillColor", tostring(outType.fillLevel) .. " (" .. tostring(outType.percent) .. "%)", fillColor})
