@@ -27,6 +27,7 @@ No idea.  I left the flag on for now, but I can't imagine it will work flawlessl
 * Show food levels (total and individual)
 * Show output products and their fill levels
 * Show animal health average, breeding average, and immature animal percentage
+* Add an underscore to the animal pen name to hide it from the HUD (_)
 
 ## Default Input Bindings
 

@@ -184,8 +184,20 @@ function AnimalInspector:updateAnimals()
 
 	local myHusbandries = g_currentMission.husbandrySystem:getPlaceablesByFarm(self.mission:getFarmId())
 
+	local sortOrder = {}
+	local function sorter(a,b) return a[2] < b[2] end
+
 	for v=1, #myHusbandries do
-		local thisHusb = myHusbandries[v]
+		local thisHusbName = myHusbandries[v]:getName()
+		if ( string.sub(thisHusbName, -1) ~= "_") then
+			table.insert(sortOrder, {v, thisHusbName})
+		end
+	end
+
+	table.sort(sortOrder, sorter)
+
+	for _, sortEntry in ipairs(sortOrder) do
+		local thisHusb = myHusbandries[sortEntry[1]]
 		local thisNumClusters = thisHusb:getNumOfClusters()
 
 		if thisHusb:getAnimalTypeIndex() ~= AnimalType.HORSE and thisNumClusters > 0 then

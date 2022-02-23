@@ -12,10 +12,17 @@ Options:
  - Show food levels (total and individual)
  - Show output products and their fill levels
  - Show animal health average, breeding average, and immature animal percentage
+ - Add an underscore to the animal pen name to hide it from the HUD (_)
 
 Default Input Bindings:
 Left Ctrl + Left Alt + Num Pad 7 : Reload configuration file from disk
 Left Alt + Num Pad 7 : Toggle display on and off
+
+Changelog:
+
+v1.0.0.1
+ - Add animal pen sorting by name
+ - Add conditionally ignroing pens that end with a underscore ("_") character
  ]]></en>
         <de><![CDATA[Animal Inspector zeigt Ihre (Nicht-Pferde-)Tierhaltungen auf einen Blick
 
@@ -24,14 +31,21 @@ Optionen:
  - Futterstände anzeigen (gesamt und einzeln)
  - Anzeige der Ausgangsprodukte und ihrer Füllstände
  - Anzeige des durchschnittlichen Gesundheitszustands der Tiere, des Zuchtdurchschnitts und des Prozentsatzes unreifer Tiere
+ - Fügen Sie einen Unterstrich an den Namen des Tieres an, um ihn vor dem HUD zu verbergen (_)
 
  Standard-Eingabebindungen:
 Left Ctrl + Left Alt + Num Pad 7 : Konfigurationsdatei von der Festplatte neu laden
 Left Alt + Num Pad 7 : Anzeige ein- und ausschalten
+
+Changelog:
+
+v1.0.0.1
+ - Sortierung der Tierstifte nach Namen hinzufügen
+ - Stifte, die mit einem Unterstrich ("_") enden, werden nun bedingt ignoriert
  ]]></de>
     </description>
     <author>JTSage</author>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <iconFilename>modIcon.dds</iconFilename>
     <multiplayer supported="true"/>
     <extraSourceFiles>
