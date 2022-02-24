@@ -22,7 +22,7 @@ Changelog:
 
 v1.0.0.1
  - Add animal pen sorting by name
- - Add conditionally ignroing pens that end with a underscore ("_") character
+ - Add conditionally ignoring pens that end with a underscore ("_") character
  ]]></en>
         <de><![CDATA[Animal Inspector zeigt Ihre (Nicht-Pferde-)Tierhaltungen auf einen Blick
 
@@ -41,7 +41,7 @@ Changelog:
 
 v1.0.0.1
  - Sortierung der Tierstifte nach Namen hinzufügen
- - Stifte, die mit einem Unterstrich ("_") enden, werden nun bedingt ignoriert
+ - Hinzufügen des bedingten Ignorierens von Stiften, die mit einem Unterstrich ("_") enden
  ]]></de>
     </description>
     <author>JTSage</author>

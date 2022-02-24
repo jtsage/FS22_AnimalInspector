@@ -63,5 +63,8 @@
 		"g_animalInspector",
 		"AnimalInspector",
 		"AnimalType"
+	],
+	"cSpell.enableFiletypes": [
+		"xml"
 	]
 }
