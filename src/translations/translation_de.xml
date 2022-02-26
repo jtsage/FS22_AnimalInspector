@@ -11,6 +11,8 @@
 	<text name="hud_animalInspector_tooYoung"              text="Unterhalb des Reproduktionsalters" />
 	<text name="setting_animalInspector_Visible"           text="HUD Sichtbar" />
 	<text name="toolTip_animalInspector_Visible"           text="Wenn aktiviert, wird das Overlay angezeigt" />
+	<text name="setting_animalInspector_TextSize"          text="Schriftgröße" />
+	<text name="toolTip_animalInspector_TextSize"          text="Schriftgröße für die Anzeige, in relativen Pixeln." />
 	<text name="setting_animalInspector_ShowCount"         text="Tierzahl anzeigen" />
 	<text name="toolTip_animalInspector_ShowCount"         text="Wenn diese Option aktiviert ist, werden die Anzahl der Tiere und der Gesamtplatz für die Tiere angezeigt." />
 	<text name="setting_animalInspector_ShowFood"          text="Essen anzeigen Gesamt" />

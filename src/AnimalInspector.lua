@@ -16,6 +16,8 @@ AnimalInspector.displayMode5Y   = 0.2
 
 AnimalInspector.debugMode       = false
 
+AnimalInspector.menuTextSizes = { 8, 10, 12, 14, 16 }
+
 AnimalInspector.isEnabledVisible           = true
 AnimalInspector.isEnabledShowCount         = true
 AnimalInspector.isEnabledShowFood          = true
@@ -774,6 +776,8 @@ function AnimalInspector:loadSettings()
 		end
 
 		delete(xmlFile)
+
+		g_animalInspector.inspectText.size = g_animalInspector.gameInfoDisplay:scalePixelToScreenHeight(g_animalInspector.setValueTextSize)
 	end
 end
 
@@ -831,6 +835,24 @@ function AnimalInspector.initGui(self)
 		settingTitle:setText(g_i18n:getText("setting_animalInspector_DisplayMode"))
 		toolTip:setText(g_i18n:getText("toolTip_animalInspector_DisplayMode"))
 
+		self.menuOption_TextSize = self.checkInvertYLook:clone()
+		self.menuOption_TextSize.target = g_animalInspector
+		self.menuOption_TextSize.id = "animalInspector_setValueTextSize"
+		self.menuOption_TextSize:setCallback("onClickCallback", "onMenuOptionChanged_setValueTextSize")
+		self.menuOption_TextSize:setDisabled(false)
+
+		settingTitle = self.menuOption_TextSize.elements[4]
+		toolTip = self.menuOption_TextSize.elements[6]
+
+		local textSizeTexts = {}
+		for _, size in ipairs(g_animalInspector.menuTextSizes) do
+			table.insert(textSizeTexts, tostring(size) .. " px")
+		end
+		self.menuOption_TextSize:setTexts(textSizeTexts)
+
+		settingTitle:setText(g_i18n:getText("setting_animalInspector_TextSize"))
+		toolTip:setText(g_i18n:getText("toolTip_animalInspector_TextSize"))
+
 
 		for _, optName in pairs(boolMenuOptions) do
 			local fullName = "menuOption_" .. optName
@@ -860,6 +882,7 @@ function AnimalInspector.initGui(self)
 			local thisOption = "menuOption_" .. value
 			self.boxLayout:addElement(self[thisOption])
 		end
+		self.boxLayout:addElement(self.menuOption_TextSize)
 	end
 
 	self.menuOption_DisplayMode:setState(g_animalInspector.displayMode)
@@ -868,10 +891,24 @@ function AnimalInspector.initGui(self)
 		local thisRealOption = "isEnabled" .. value
 		self[thisMenuOption]:setIsChecked(g_animalInspector[thisRealOption])
 	end
+
+	local textSizeState = 3 -- backup value for it set odd in the xml.
+	for idx, textSize in ipairs(g_animalInspector.menuTextSizes) do
+		if g_animalInspector.setValueTextSize == textSize then
+			textSizeState = idx
+		end
+	end
+	self.menuOption_TextSize:setState(textSizeState)
 end
 
 function AnimalInspector:onMenuOptionChanged_DisplayMode(state)
 	self.displayMode = state
+	AnimalInspector:saveSettings()
+end
+
+function AnimalInspector:onMenuOptionChanged_setValueTextSize(state)
+	self.setValueTextSize = g_animalInspector.menuTextSizes[state]
+	self.inspectText.size = self.gameInfoDisplay:scalePixelToScreenHeight(self.setValueTextSize)
 	AnimalInspector:saveSettings()
 end
 

@@ -62,6 +62,8 @@
 		"g_sleepManager",
 		"g_animalInspector",
 		"AnimalInspector",
+		"AnimalType",
+		"g_animalInspector",
 		"AnimalType"
 	],
 	"cSpell.enableFiletypes": [

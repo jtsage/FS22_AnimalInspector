@@ -23,6 +23,9 @@ Changelog:
 v1.0.0.1
  - Add animal pen sorting by name
  - Add conditionally ignoring pens that end with a underscore ("_") character
+v.1.0.0.2
+ - Fix loading of font size from xml settings
+ - Add font size choice to settings menu
  ]]></en>
         <de><![CDATA[Animal Inspector zeigt Ihre (Nicht-Pferde-)Tierhaltungen auf einen Blick
 
@@ -42,10 +45,13 @@ Changelog:
 v1.0.0.1
  - Sortierung der Tierstifte nach Namen hinzufügen
  - Hinzufügen des bedingten Ignorierens von Stiften, die mit einem Unterstrich ("_") enden
+v.1.0.0.2
+ - Reparieren des Ladens der Schriftgröße aus den xml-Einstellungen
+ - Auswahl der Schriftgröße im Einstellungsmenü hinzugefügt
  ]]></de>
     </description>
     <author>JTSage</author>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2</version>
     <iconFilename>modIcon.dds</iconFilename>
     <multiplayer supported="true"/>
     <extraSourceFiles>
