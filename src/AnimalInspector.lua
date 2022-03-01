@@ -271,8 +271,18 @@ function AnimalInspector:updateAnimals()
 			end
 
 			dispRoot.healthFactor   = math.ceil(clus_healthPercTotal / clus_totalAnimals)
-			dispRoot.breedFactor    = math.ceil(clus_breedPercTotal / clus_breedAnimals)
-			dispRoot.underageFactor = math.ceil((clus_nonBreedAnimals / clus_totalAnimals) * 100)
+
+			if clus_breedAnimals == 0 then
+				dispRoot.breedFactor = 0
+			else
+				dispRoot.breedFactor    = math.ceil(clus_breedPercTotal / clus_breedAnimals)
+			end
+
+			if clus_nonBreedAnimals == 0 then
+				dispRoot.underageFactor = 0
+			else
+				dispRoot.underageFactor = math.ceil((clus_nonBreedAnimals / clus_totalAnimals) * 100)
+			end
 
 			table.insert(new_data_table, dispRoot)
 		end
