@@ -28,6 +28,8 @@ v1.0.0.2
  - Add font size choice to settings menu
 v1.0.0.3
  - Fix bug when no animals of breeding age or under breeding age (NaN%)
+v1.0.0.4
+ - Bugfix: text was still visible when HUD was toggled off
  ]]></en>
         <de><![CDATA[Animal Inspector zeigt Ihre (Nicht-Pferde-)Tierhaltungen auf einen Blick
 
@@ -52,10 +54,12 @@ v.1.0.0.2
  - Auswahl der Schriftgröße im Einstellungsmenü hinzugefügt
 v1.0.0.3
  - Fehler beheben, wenn keine Tiere im Zuchtalter oder unter dem Zuchtalter sind (NaN%)
+v1.0.0.4
+ - Bugfix: Der Text war noch sichtbar, wenn das HUD ausgeschaltet war.
  ]]></de>
     </description>
     <author>JTSage</author>
-    <version>1.0.0.3</version>
+    <version>1.0.0.4</version>
     <iconFilename>modIcon.dds</iconFilename>
     <multiplayer supported="true"/>
     <extraSourceFiles>

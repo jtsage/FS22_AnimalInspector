@@ -317,7 +317,7 @@ function AnimalInspector:draw()
 			linesPerEntry = linesPerEntry - 1
 		end
 
-		if #info_text == 0 or not g_animalInspector.isEnabledVisible or g_sleepManager:getIsSleeping()  then
+		if #info_text == 0 or not g_animalInspector.isEnabledVisible or g_sleepManager:getIsSleeping() or g_noHudModeEnabled then
 			-- we have no entries, hide the overlay and leave
 			-- also if we hid it on purpose
 			self.inspectBox:setVisible(false)
